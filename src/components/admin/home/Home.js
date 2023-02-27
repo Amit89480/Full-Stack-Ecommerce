@@ -51,7 +51,7 @@ const Home = () => {
         <InfoBox
           cardClass={`${styles.card} ${styles.card1}`}
           title={"Earnings"}
-          count={`$${totalOrderAmount}`}
+          count={`₹ ${totalOrderAmount}`}
           icon={earningIcon}
         />
         <InfoBox
